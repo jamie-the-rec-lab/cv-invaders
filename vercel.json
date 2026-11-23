@@ -1,4 +1,6 @@
 {
-  "buildCommand": "bash build.sh",
-  "outputDirectory": "."
+  "redirects": [
+    { "source": "/", "destination": "https://www.thereclab.ai/cv-invaders/", "permanent": true },
+    { "source": "/(.*)", "destination": "https://www.thereclab.ai/cv-invaders/", "permanent": true }
+  ]
 }
